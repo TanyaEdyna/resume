@@ -1,0 +1,203 @@
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    /* підключення шрифтів в css */
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+    .sheet {
+        width: 1200px;
+        background-color: #E5E5E5;
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    }
+    .sidebar {
+        width: 370px;
+        background-color: #1E2939;
+    }
+    .photo {
+        width: 370px;
+        margin-bottom: 50px;
+        padding-top: 40px;
+    }
+    .contacts, 
+    .tech_skills,
+    .soft_skills  {
+        padding-left: 40px;
+    }
+    .contacts_title,
+    .tech_title,
+    .soft_title {
+        color: white;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        margin-bottom: 10px;
+    }
+    .contacts {
+        margin-bottom: 50px;
+    }
+    .contacts p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: white;
+       
+    }
+    .contacts a {
+        font-style: normal;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+        color: white;
+        opacity: 0.5;
+        margin-left: 8px;
+    }
+    .contacts_type {
+        text-decoration: none;
+    }
+    .list_skills {
+        color: white;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+    .list_skills_items {
+        color: #FB6D3A;
+    }
+    .list_skills_text {
+        color: white;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    .main_content {
+        width: 830px;
+        background: #fff;
+        padding: 105px 90px;
+    
+    }
+    /* about user right side */
+    .main_title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 20px;
+    }
+    h1 {
+        font-style: normal;
+        font-size: 45px;
+        line-height: 55px;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+    .short_info {
+        font-style: normal;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+        width: 400px;
+        color: #595959;
+    }
+    .about {
+    margin-bottom: 40px;
+    }
+    .main_content h3{
+        font-style: normal;
+        font-size: 22px;
+        line-height: 27px;
+        font-weight: 700;
+        margin-bottom: 8px;
+        margin-bottom: 10px;
+    
+    }
+    .numbered_list {
+        padding-left: 18px;
+    }
+    .projects_list {
+        font-weight: 700;
+        line-height: 24px;
+        font-size: 14px;
+        color: #000;
+    }
+    .project_link, 
+    .project
+    {   font-style: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #595959;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    .project_link {
+        margin-left: 12px;
+    }
+    .brakets {
+        font-weight: 700;
+        font-size: 14px;
+        color: #000;
+        line-height: 24px;
+    }
+    .projects {
+        margin-bottom: 50px;
+    }
+    /* work */
+    .work h4 {
+        font-style: normal;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        color: #000000;
+        margin-bottom: 10px;
+    }
+    .work_color {
+        color: #FB6D3A;
+    }
+    .period {
+        font-style: normal;
+        font-size: 12px;
+        line-height: 15px;
+        font-weight: 400;
+        color: #A8A8A8;
+        margin-bottom: 10px;
+    }
+    .line {
+        font-size: 12px;
+        font-weight: normal;
+        line-height: 15px;
+        color: #000;
+    }
+    .work_list {
+        font-style: normal;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #595959;
+        padding-left: 14px;
+    }
+    .list_company_one {
+        margin-bottom: 16px;
+    }
+    .list_company_two {
+        margin-bottom: 20px;
+    }
+    .list_company_three {
+        margin-bottom: 42px;
+    }
+    /* Education */
+    .education h3,
+    .education h4,
+    .education h5 {
+        margin-bottom: 12px;
+    }
+    
